@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PropertyCapsule Test Automation Test Suite">
+
+	<listeners>
+		<listener
+			class-name="propertycapsule.qa.extentreportlistener.ExtentReporterNG" />
+	</listeners>
+
+
+	<test name="Free CRM App Test Cases">
+		<classes>
+		<class name="propertycapsule.qa.testcase.HomePageTest"></class>
+			<class name="propertycapsule.qa.testcase.ContactusPageTest"></class>
+			<class name="propertycapsule.qa.testcase.FindsBrokenlinkTest"></class>	
+
+		</classes>
+	</test>
+</suite>

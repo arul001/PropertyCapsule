@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [PropertyCapsule Test Automation Test Suite]">
+  <listeners>
+    <listener class-name="propertycapsule.qa.extentreportlistener.ExtentReporterNG"/>
+  </listeners>
+  <test name="Free CRM App Test Cases(failed)">
+    <classes>
+      <class name="propertycapsule.qa.testcase.ContactusPageTest">
+        <methods>
+          <include name="createNewContactTest" invocation-numbers="0 2 3"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- propertycapsule.qa.testcase.ContactusPageTest -->
+      <class name="propertycapsule.qa.testcase.HomePageTest">
+        <methods>
+          <include name="LogoTest"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="homepageTitleTest"/>
+        </methods>
+      </class> <!-- propertycapsule.qa.testcase.HomePageTest -->
+    </classes>
+  </test> <!-- Free CRM App Test Cases(failed) -->
+</suite> <!-- Failed suite [PropertyCapsule Test Automation Test Suite] -->
